@@ -19,3 +19,12 @@ No Scroll bar
 (+5 char size)
 
 printf "\e]50;#+5\a" > /dev/pts/0
+
+
+
+
+
+
+------ Setup Virtual environment
+wifi
+mount --bind /etc/resolv.conf /opt/test/dual_rootfs/etc/resolv.conf

@@ -15,7 +15,7 @@ SRCS = $(wildcard $(SRC_DIR)/*.c) $(wildcard $(SRC_DIR)/dev/*.c)
 OBJS = $(patsubst $(SRC_DIR)/%.c, $(BUILD_DIR)/%.o, $(SRCS))
 
 # The final library output location
-TARGET = $(BUILD_DIR)/libmodding.so
+TARGET = $(BUILD_DIR)/libtroposphere.so
 
 .PHONY: all clean
 
